@@ -1,3 +1,4 @@
+
 # Trading Bot for CoinDCX
 
 ## Overview
@@ -8,6 +9,9 @@ This project is a trading bot designed to help make arbitrage on CoinDCX by leve
 - **Real-Time Market Analysis**: Continuously monitors the market for price differences to exploit.
 - **Efficient Execution**: Built with the fast and efficient Bun runtime to ensure quick execution of trades.
 - **Customizable**: Easily configurable to adjust trading strategies and parameters.
+
+## Why It Works
+In trading, the liquidity of a market significantly affects price spreads. In less liquid markets, such as **INR-SOL**, the spread tends to be higher due to fewer buy and sell orders. This provides an opportunity for arbitrage as price discrepancies can be exploited for profit. In contrast, more liquid markets, like **INR-USDT** and **USDT-SOL**, typically have narrower spreads, making arbitrage opportunities less favorable. By targeting these illiquid markets, the bot capitalizes on the higher spreads to execute profitable trades.
 
 ## Technologies Used
 - **TypeScript**: For type-safe JavaScript development.
@@ -72,5 +76,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or support, please contact:
 
 - [Lalit Gidwani](mailto:lalit159gidwani@gmail.com)
-
----
